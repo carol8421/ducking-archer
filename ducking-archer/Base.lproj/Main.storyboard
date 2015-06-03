@@ -26,12 +26,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQB-eQ-LGr">
+                                <rect key="frame" x="16" y="532" width="568" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="pdu-1A-vhA"/>
+                                </constraints>
+                                <state key="normal" title="Ping Server">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pingServer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OTD-Wi-ETQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3SQ-ZS-TKY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ANU-pY-Dl0"/>
+                            <constraint firstItem="eQB-eQ-LGr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="AuJ-dT-CTa"/>
                             <constraint firstItem="3SQ-ZS-TKY" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ndo-5f-iIn"/>
                             <constraint firstItem="3SQ-ZS-TKY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="WQE-jI-huF"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="eQB-eQ-LGr" secondAttribute="bottom" constant="8" id="bQk-bA-gLi"/>
+                            <constraint firstItem="eQB-eQ-LGr" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="mCT-eI-sze"/>
                         </constraints>
                     </view>
                     <connections>

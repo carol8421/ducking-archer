@@ -12,4 +12,6 @@
 
 @property (nonatomic, readonly) NSString *value;
 
+- (id)initWithValue:(NSString *)value;
+
 @end

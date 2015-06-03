@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char DataKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <DataKit/PublicHeader.h>
 
 #import <DataKit/DummyModel.h>
+#import <DataKit/DummyDataLoader.h>

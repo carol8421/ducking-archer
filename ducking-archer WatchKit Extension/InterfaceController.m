@@ -7,7 +7,8 @@
 //
 
 #import "InterfaceController.h"
-#import <DataKit/DataKit.h>
+@import DataKit;
+
 
 @interface InterfaceController()
 
@@ -19,9 +20,19 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
 
-    // Configure interface objects here.
-    DummyModel *model = [DummyModel new];
-    [self.mainLabel setText:model.value];
+    __weak typeof(self) weakSelf = self;
+    [DummyDataLoader loadModel:^(DummyModel *model, NSError *error) {
+        __strong typeof(weakSelf) self = weakSelf;
+        
+        if (error)
+        {
+            self.mainLabel.text = @"*ERROR*";
+        }
+        else
+        {
+            self.mainLabel.text = model.value;
+        }
+    }];
 }
 
 - (void)willActivate {

@@ -10,9 +10,13 @@
 
 @implementation DummyModel
 
-- (NSString *)value
+- (id)initWithValue:(NSString *)value
 {
-    return @"Hello, world!";
+    if ((self = [super init]) != nil)
+    {
+        _value = value;
+    }
+    return self;
 }
 
 @end

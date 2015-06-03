@@ -12,5 +12,7 @@
 
 @property (nonatomic, strong) IBOutlet UILabel *mainLabel;
 
+- (IBAction)pingServer:(id)sender;
+
 @end
 
