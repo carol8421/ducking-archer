@@ -1,0 +1,23 @@
+.DS_Store
+*/.DS_Store
+*build/*
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*xcuserdata*
+
+####
+# Cocoapods: cocoapods.org
+#
+# Depending on your requirements you may want to set up pods differently.
+
+# OPTION 1: ---------------------------------
+#     Ignore Pods/ directory but keep Podfile.lock
+#
+#     Cocoapods uses the Podfile.lock during build time to ensure that the versions specified
+#     by the current Podfile match those in the sandbox. If an update is needed then the build fails
+#     And the user should run 'pod install'
+#
+# NB: this is exclusive with OPTION 2 below
+Pods/
+!Podfile.lock
