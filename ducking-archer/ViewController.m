@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <DataKit/DataKit.h>
+
 
 @interface ViewController ()
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DummyModel *model = [DummyModel new];
+    self.mainLabel.text = model.value;
 }
 
 - (void)didReceiveMemoryWarning {
