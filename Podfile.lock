@@ -20,11 +20,19 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - DataKit (0.0.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - AFNetworking
+  - DataKit (from `./DataKit/DataKit.podspec`)
+
+EXTERNAL SOURCES:
+  DataKit:
+    :path: ./DataKit/DataKit.podspec
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  DataKit: 237320898ad4da7694b723a61f86699cef14b859
 
 COCOAPODS: 0.37.2

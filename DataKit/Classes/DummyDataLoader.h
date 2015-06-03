@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DataKit/DummyModel.h>
+#import "DummyModel.h"
 
 typedef void(^DummyDataLoaderCallback)(DummyModel *model, NSError *error);
 
