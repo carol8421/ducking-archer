@@ -7,7 +7,7 @@
 //
 
 #import "DummyDataLoader.h"
-#import <AFNetworking/AFNetworking.h>
+@import AFNetworking;
 
 
 @implementation DummyDataLoader

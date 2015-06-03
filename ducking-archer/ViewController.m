@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 @import DataKit;
-#import <AFNetworking/AFNetworking.h>
+@import AFNetworking;
 
 
 @interface ViewController ()
