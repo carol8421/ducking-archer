@@ -28,7 +28,7 @@
 		6A2BC0FE1B1F48AC0007E488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2BC0FD1B1F48AC0007E488 /* Images.xcassets */; };
 		6A2BC1011B1F48AC0007E488 /* ducking-archer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6A2BC0E81B1F48AC0007E488 /* ducking-archer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6A5E9F891B1F5B1200215D4D /* DummyDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E9F871B1F5B1200215D4D /* DummyDataLoader.m */; };
-		6A5E9F8A1B1F5B1200215D4D /* DummyDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5E9F881B1F5B1200215D4D /* DummyDataLoader.h */; };
+		6A5E9F8A1B1F5B1200215D4D /* DummyDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5E9F881B1F5B1200215D4D /* DummyDataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		983D4F33474126A9272DEB81 /* Pods_ducking_archer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56679BF7EE44AAA410ACA80F /* Pods_ducking_archer.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D5EE95A8FD3A29E0F8EF5791 /* Pods_DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891C420ABC4571494BE5D55B /* Pods_DataKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
